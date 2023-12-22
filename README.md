@@ -4,17 +4,13 @@ A test using Vexflow's EasyScore.
 
 ### Score 1
 
-<script src="https://cdn.jsdelivr.net/npm/vexflow@4.2.2/build/cjs/vexflow.js"></script>
-
-<div id="score1"></div>
-
-Test 1.
+<div id="score1" style="margin-top:-60px"></div>
 
 ### Score 2
 
-<div id="score2"></div>
+<div id="score2" style="margin-top:-60px"></div>
 
-Test 2.
+<script src="https://cdn.jsdelivr.net/npm/vexflow@4.2.2/build/cjs/vexflow.js"></script>
 
 <script>
 const { Renderer, Stave, TextNote } = Vex.Flow;
