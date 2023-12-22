@@ -8,9 +8,13 @@ A test using Vexflow's EasyScore.
 
 <div id="score1"></div>
 
+Test 1.
+
 ### Score 2
 
 <div id="score2"></div>
+
+Test 2.
 
 <script>
 const { Renderer, Stave, TextNote } = Vex.Flow;
