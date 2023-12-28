@@ -62,7 +62,7 @@ const fig1_notes = [
 	[["c/4", "e/4", "g/4"], "q"]
 ];
 
-addStave("fig1", fig1_notes, "C", true);
+// addStave("fig1", fig1_notes, "C", true);
 
 const fig2_notes = [
 	[["bb/3"], "q", "BbMaj7"],
@@ -71,4 +71,20 @@ const fig2_notes = [
 	[["b/3", "d/4", "f/4"], "q"]
 ];
 
-addStave("fig2", fig2_notes, "Bb", true);
+// addStave("fig2", fig2_notes, "Bb", true);
+
+//new StaveNote({ keys: notename, duration: noteinfo[i][1] });
+
+const string = "4/4 c:c4 d4 b4r (c4,e4,g4)4";
+
+function tinyToVex(input) {
+	console.log(input);
+	let working = input.split(":");
+	let infoWorking = working[0].split(" ");
+	let timeSig = infoWorking[0];
+	let keySig = infoWorking[1];
+	let notes = working[1].split(" ");
+	console.log(notes);
+}
+
+tinyToVex(string);
